@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/resetstyle.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body id="backgroundColor" class="backgroundColorHome">
+    <nav class="nav-main">
+      <div id="btn-toggle-nav" onmouseover="toggleNavShow()"></div>
+      <h1 id="title">Home</h1>
+    </nav>
+
+    <aside class="nav-sidebar" onmouseleave="toggleNavHide()">
+      <ul>
+        <li onclick="toggleNavHide()" class="sidebarColors" id="sidebarColor01">
+          <input type="radio" id="radioColor01" class="radioButtons" />
+          <a href="#">HOME (press 1)</a>
+        </li>
+        <li onclick="toggleNavHide()" class="sidebarColors" id="sidebarColor02">
+          <input type="radio" id="radioColor02" class="radioButtons" />
+          <a href="#">RED (press 2)</a>
+        </li>
+        <li onclick="toggleNavHide()" class="sidebarColors" id="sidebarColor03">
+          <input type="radio" id="radioColor03" class="radioButtons" />
+          <a href="#">ORANGE (press 3)</a>
+        </li>
+        <li onclick="toggleNavHide()" class="sidebarColors" id="sidebarColor04">
+          <input type="radio" id="radioColor04" class="radioButtons" />
+          <a href="#">PURPLE (press 4)</a>
+        </li>
+        <li onclick="toggleNavHide()" class="sidebarColors" id="sidebarColor05">
+          <input type="radio" id="radioColor05" class="radioButtons" />
+          <a href="#">GREEN (press 5)</a>
+        </li>
+      </ul>
+    </aside>
+  </body>
+  <script src="/js/main.js"></script>
+</html>
